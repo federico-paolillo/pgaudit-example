@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Database with Audit",
+      "Group": "Servers",
+      "Port": 5432,
+      "Username": "postgres",
+      "Host": "database",
+      "SSLMode": "prefer",
+      "MaintenanceDB": "postgres"
+    }
+  }
+}
