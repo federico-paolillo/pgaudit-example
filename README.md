@@ -1,4 +1,4 @@
-# Setting up `pgaudit` on the relation level
+# PostgreSQL `pgaudit` configuration example
 
 Custom Docker image based on [`bitnami/postgresql`](https://hub.docker.com/r/bitnami/postgresql/) that setups [`pgaudit`](https://github.com/pgaudit/pgaudit) to log writes on a single table.
 
