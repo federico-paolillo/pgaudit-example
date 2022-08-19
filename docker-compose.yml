@@ -19,6 +19,8 @@ services:
       - POSTGRESQL_DATABASE=test_db
       - POSTGRESQL_PASSWORD=adminADMIN1234!
     volumes:
+      - postgresdata:/bitnami/postgresql
       - ./logs:/bitnami/postgresql/logs:rw
 volumes:
   pgadmin4data:
+  postgresdata:
