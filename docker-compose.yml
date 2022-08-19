@@ -18,6 +18,7 @@ services:
     environment:
       - POSTGRESQL_DATABASE=test_db
       - POSTGRESQL_PASSWORD=adminADMIN1234!
-      - POSTGRESQL_EXTRA_FLAGS=-c logging_collector=true -c log_directory=/bitnami/postgresql/logs
+    volumes:
+      - ./logs:/bitnami/postgresql/logs:rw
 volumes:
   pgadmin4data:
